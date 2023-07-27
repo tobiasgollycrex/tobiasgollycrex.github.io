@@ -1271,7 +1271,7 @@ body {
 .title {
     font-size: 48px;
     font-weight: bold;
-    background-color: #3498db; /* Hintergrundfarbe für den Titel */
+    background-color: #f40000; /* Hintergrundfarbe für den Titel */
     color: #ffffff;
     padding: 20px;
     border-radius: 10px;
@@ -1281,7 +1281,17 @@ body {
 @media (max-width: 640px) {
 flowise-chatbot {
     position: fixed !important;
-    top: 0 !important;
+    top: 100px !important;
     left: 0 !important;
+    height: 400px !important;
 }
+
+.max-h-\[704px\] {
+    height: 400px !important;
 }
+
+
+
+
+}
+
