@@ -1295,3 +1295,7 @@ img {
     }
 }
 
+.chatbot-container span {
+    display: none !important;
+}
+
